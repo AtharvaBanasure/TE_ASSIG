@@ -31,7 +31,7 @@ public class coinchange {
             }
             System.out.println();
         }
-        return dp[n][w];
+        return dp[n-1][w-1];//changed
     }
 
     public static void main(String[] args) {
